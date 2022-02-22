@@ -1,0 +1,20 @@
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+tr:first-child{
+    background-color: rgb(107, 230, 107);
+}
+tr:nth-child(2){
+    background-color: rgba(153, 238, 164, 0.705);
+}
+.color{
+    color:red;
+}
+.tap{
+    width:80px
+}
+tr{
+    height:40px;
+    text-align:center;
+}

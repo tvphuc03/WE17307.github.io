@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+}
+.form{
+    /* margin: 0 auto; */
+    /* padding: 0 400px; */
+width: 45%;
+}
+
+/* phân cách các nhóm */
+
+.form-group {
+  margin: 10px 0px;
+  width: 600px;
+}
+/* định dạng cho 1 điều khiển */
+.form-control {
+  width: 98%;
+  padding: 5px;
+  outline: none;
+  /* border: 1px solid gray; */
+  border-radius: 3px;
+}
+/* định dạng cho nhãn trên điều khiển */
+.form-group label {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+/* định dạng cho điều khiển đang nhận trỏ chuột */
+.form-control:focus {
+  background-color: yellow;
+  box-shadow: 0 0 3px red;
+  border: 1px solid yellow;
+}
+/* định dạng cho nút nhấn */
+.form-button {
+  padding: 8px 30px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  color: orangered;
+  box-shadow: inset 0 0 20px blue;
+}
+/* định dạng cho nút khi đưa chuột lên */
+.form-button:hover {
+  color: blue;
+  box-shadow: inset 0 0 20px orangered;
+}
+form{
+    float: left;
+    margin-right: 10px;
+}
